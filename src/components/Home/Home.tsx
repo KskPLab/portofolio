@@ -67,6 +67,7 @@ const Home: React.FC<HomeProps> = ({ home }) => {
           >
             <Grid item xs={12} md={4}>
               <Avatar
+                // src={profilePic}
                 sx={{
                   width: { xs: 200, sm: 250, md: 350 },
                   height: { xs: 200, sm: 250, md: 350 },
