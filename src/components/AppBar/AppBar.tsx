@@ -24,9 +24,8 @@ const StyledTab = styled(Tab)({
 const AppBarLayout: React.FC<AppBarProps> = ({ children }) => {
   const [value, setValue] = useState("home");
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
-    console.log(newValue);
 
     const section = document.getElementById(newValue);
     if (section) {
