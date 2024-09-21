@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import Tilt from "react-parallax-tilt";
 import { Typewriter } from "react-simple-typewriter";
-import profilePic from "../../assets/profile.jpg";
+// import profilePic from "../../assets/profile.jpg";
 
 interface HomeProps {
   // Additional props...
@@ -74,7 +74,7 @@ const Home: React.FC<HomeProps> = ({ home }) => {
                 }}
               >
                 <img
-                  src={profilePic}
+                  // src={profilePic}
                   alt="Profile Pic"
                   style={{
                     width: "100%",
