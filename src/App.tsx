@@ -1,18 +1,16 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
-import AppBarComponent from "./components/AppBar/AppBar";
+import AppBarLayout from "./components/AppBar/AppBar";
+import About from "./components/About/About";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <AppBarComponent>
-          <Routes>
-            <Route element={<Home home={true} />} path="/" />
-          </Routes>
-        </AppBarComponent>
-      </BrowserRouter>
+      <AppBarLayout>
+        <Home home={true} />
+        <About />
+      </AppBarLayout>
     </>
   );
 }
