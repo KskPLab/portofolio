@@ -32,7 +32,7 @@ const AppBarLayout: React.FC<AppBarProps> = ({ children }) => {
     if (section) {
       section.scrollIntoView({
         behavior: "smooth",
-        block: 'nearest',
+        block: "start",
       });
     }
   };
@@ -42,7 +42,7 @@ const AppBarLayout: React.FC<AppBarProps> = ({ children }) => {
       <AppBar
         sx={{
           height: 70,
-          backgroundColor: "#fad1ac",
+          backgroundColor: "#d4a373",
           display: "flex",
           justifyContent: "center",
           alignItems: "end",
@@ -56,7 +56,7 @@ const AppBarLayout: React.FC<AppBarProps> = ({ children }) => {
             outline: "none",
           }}
         >
-          <StyledTab label="Home" value={"home"} />
+          <StyledTab label="Profile" value={"home"} />
           <StyledTab label="About" value={"about"} />
           <StyledTab label="Projects" value={"ksk2"} />
           <StyledTab label="Technologies" value={"ksk3"} />

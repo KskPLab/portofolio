@@ -9,8 +9,10 @@ const About = () => {
         width: "100%",
         height: "100vh",
         p: 0,
-        backgroundColor: "black",
-        color: "white",
+       display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: 30,
       }}
     >
       About
